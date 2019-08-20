@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="./css/sm.css">
+		<link rel="stylesheet" href="./css/sm-extend.css">
+		<script type='text/javascript' src='./js/zepto.js' charset='utf-8'></script>
+		<script type='text/javascript' src='./js/sm.js' charset='utf-8'></script>
+		<script type='text/javascript' src='./js/sm-extend.js' charset='utf-8'></script>
+		<style type="text/css">
+			.bar-tab .tab-item.active,.bar-tab .tab-item:active {
+					color: #f00b0d;
+			}
+			.swiper-slide img{
+				width:100%
+			}
+			.swiper-pagination{
+					padding-bottom: 46px;
+			}
+			.swiper-pagination-bullet{
+				background-color:#a8abb0;
+				
+			}
+			.swiper-pagination-bullet-active {
+				background-color:#fff;
+			}
+			.card-content img{
+				width:100%;
+			}
+			.card-header-bigtitle{
+				font-size:20px;
+				padding-bottom: 0px;
+				word-spacing: 5px;
+				letter-spacing: 2px;
+			}
+			.card-header-smalltitle{
+				font-size:14px;
+				padding-top: 0px;
+				letter-spacing: 3px;
+				opacity: 0.5;
+			}
+		</style>
+		
+		
+	</head>
+	<body>
+			<div class="page-group">
+				<div class="page">
+				hello  this sui mobile
+					
+					<header class="bar bar-nav">
+						
+						<h1 class="title">呵呵商城</h1>
+					</header>
+					<!--内容部分-->
+					
+					<div class="content">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide"><img src="./img/1.jpg"/></div>
+								<div class="swiper-slide"><img src="./img/2.jpg"/></div>
+								<div class="swiper-slide"><img src="./img/3.jpg"/></div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+						
+						<div class="card">
+							
+							<div class="card-header card-header-bigtitle">CHRISMARS DAY</div>
+							<div class="card-header card-header-smalltitle">乐荟高端推荐平牌</div>
+							<div class="card-content">
+								<img src="./img/shizhuang1.jpg"/>
+								
+							</div>	
+							<div class="card-content">
+								<img src="./img/shizhuang2.jpg"/>
+								
+							</div>	
+						</div>
+						
+						
+					</div>
+					<nav class="bar bar-tab">
+						<a class="tab-item active external" href="index.html">
+							<span class="icon icon-home"></span>
+							<span class="tab-label">首页</span>
+						</a>
+						<a class="tab-item external" href="fenlei.html">
+							<span class="icon icon-app"></span>
+							<span class="tab-label">分类</span>
+						</a>
+						<a class="tab-item external" href="WantToBuy.html">
+							<span class="icon icon-cart"></span>
+
+							<span class="tab-label">购物车</span>
+						</a>
+						<a class="tab-item   external" href="person.html">
+							<span class="icon icon-me"></span>
+							<span class="tab-label">我的乐荟</span>
+						</a>
+
+					</nav>
+				</div>
+			
+			</div>
+		
+	</body>
+	
+<script type="text/javascript">
+	$(function(){
+		$.init();
+	})
+	
+</script>
+</html>

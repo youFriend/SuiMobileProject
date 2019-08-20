@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="./css/sm.css">
+    <link rel="stylesheet" href="./css/sm-extend.css">
+    <script type='text/javascript' src='./js/zepto.js' charset='utf-8'></script>
+    <script type='text/javascript' src='./js/sm.js' charset='utf-8'></script>
+    <script type='text/javascript' src='./js/sm-extend.js' charset='utf-8'></script>
+    <style type="text/css">
+        .bar-tab .tab-item.active, .bar-tab .tab-item:active {
+            color: #f00b0d;
+        }
+
+        .list-block li {
+            text-align: center;
+
+        }
+
+        .col-25 img {
+            width: 40%;
+        }
+        .card-image{
+            width: 80px;
+            /*margin: 5px 0 0 5px;*/
+        }
+        .grid-demo{
+            padding: 5px 0 0 5px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<div class="page-group">
+    <div class="page">
+        <header class="bar bar-nav">
+            <h1 class="title">购物车</h1>
+
+        </header>
+        <!--内容部分-->
+
+        <div class="content">
+
+            <div class="content-block-title">乐汇租赁平台</div>
+            <div class="card">
+                <div class="card-content">
+                    <!-- <div class="card-content-inner"></div>-->
+                    <div class="content-padded grid-demo">
+                        <div class="row">
+                            <div class="col-33"><img class="card-image" src="./img/01.jpg"/></div>
+                            <div class="col-55">
+                                <div class="row">爱马仕（HERMES）</div>
+
+                                <div class="row">租价 ：300/天</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--第二段-->
+            <div class="content-block-title">乐汇租赁平台</div>
+            <div class="card">
+                <div class="card-content">
+                    <!-- <div class="card-content-inner"></div>-->
+                    <div class="content-padded grid-demo">
+                        <div class="row">
+                            <div class="col-33"><img class="card-image" src="./img/01.jpg"/></div>
+                            <div class="col-55">
+                                <div class="row">爱马仕（HERMES）</div>
+
+                                <div class="row">租价 ：300/天</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <nav class="bar bar-tab">
+            <a class="tab-item external" href="index.html">
+                <span class="icon icon-home"></span>
+                <span class="tab-label">首页</span>
+            </a>
+            <a class="tab-item external" href="fenlei.html">
+                <span class="icon icon-app"></span>
+                <span class="tab-label">分类</span>
+            </a>
+            <a class="tab-item active external" href="wantToBuy.html">
+                <span class="icon icon-cart"></span>
+
+                <span class="tab-label">购物车</span>
+            </a>
+            <a class="tab-item  external" href="person.html">
+                <span class="icon icon-me"></span>
+                <span class="tab-label">我的乐荟</span>
+            </a>
+
+        </nav>
+    </div>
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+    $(function () {
+
+        $.init();
+
+
+    })
+
+</script>
+</html>
